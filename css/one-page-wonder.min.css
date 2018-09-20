@@ -20,7 +20,7 @@ h6 {
 }
 
 a {
-    color: #ffffff !important;
+    color: #0052D4 !important;
 }
 
 
@@ -45,13 +45,13 @@ a {
 
 .bg-light {
     color: #333333 !important; 
-    background: transparent !important;
+    background: #fff !important;
     /* box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.03); */
 }
 
 .footer {
     color: #212121 !important;
-    background-color: #efefef !important;
+    background-color: #fff !important;
 }
 
 .py-5 {
