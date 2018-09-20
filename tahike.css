@@ -418,3 +418,19 @@ header.producthead .producthead-content .producthead-subheading {
     border-radius: 10rem;
     width: 130px;
 }
+
+.nav-pills {
+    background: #2786FD !important;
+}
+
+.nav-link.active{
+    background: #6746FD !important;
+}
+
+.card-body {
+    padding: 5% 5% 5% 5%;
+}
+
+.the-tab-card{
+    margin-top: -15%;
+}
