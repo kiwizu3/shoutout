@@ -434,7 +434,7 @@ header.producthead .producthead-content .producthead-subheading {
 .nav-link.active{
     color:#2786FD !important; 
     font-weight: 800 !important;
-    background: #fff !important;
+    background: transparent !important;
     border-radius: 0rem !important;
    
 }
