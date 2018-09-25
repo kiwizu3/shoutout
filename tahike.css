@@ -490,3 +490,35 @@ header.producthead .producthead-content .producthead-subheading {
 .lite{
     margin-top: 10%;
 }
+
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 1rem .5rem;
+    clear: both;
+    font-weight: 800 !important;
+    color: #2786FD;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.menu-image{
+    width: 100% !important;
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.27);
+}
+
+.dropdown-menu{
+    padding: 5% 10% 0% 10%;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.drop-hover:hover{
+    background: #4b4b4b !important;
+    color: #fff !important;
+}

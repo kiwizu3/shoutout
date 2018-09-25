@@ -27,38 +27,73 @@
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar bg-black navbar-color-on-scroll fixed-top navbar-expand-lg">
+ <!-- Navigation -->
+ <nav class="navbar bg-light navbar-color-on-scroll fixed-top navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/logo.png" width="150" height="30" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class=""><i class="fas fa-bars" style="color:#11A5DE;"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="product.html">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" width="150" height="30" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""><i class="fas fa-bars" style="color:#11A5DE;"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Products
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a href="crm.html">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <img class="img-fluid menu-image rounded-circle" src="img/crm_mini.png" width="100%" alt="">
+                      </div>
+                      <div class="col-md-7">
+                        <span class="dropdown-item">Engage</span>
+                      </div>
+                    </div>
+                  </a>
+    
+                  <a class="drop-hover" href="lite.html">
+                      <div class="row">
+                        <div class="col-md-5">
+                          <img class="img-fluid menu-image rounded-circle" src="img/lite_mini.png" width="100%" alt="">
+                        </div>
+                        <div class="col-md-7">
+                          <span class="dropdown-item">Lite</span>
+                        </div>
+                      </div>
+                    </a>
+    
+    
+                    <a href="loyalty.html">
+                        <div class="row">
+                          <div class="col-md-5">
+                            <img class="img-fluid menu-image rounded-circle" src="img/loyalty_mini.png" width="100%" alt="">
+                          </div>
+                          <div class="col-md-7">
+                            <span class="dropdown-item">Loyalty</span>
+                          </div>
+                        </div>
+                      </a>
+    
+                  <!-- <div class="dropdown-divider"></div> -->
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
-
+      </nav>
     <!-- <h4 class="card-title">Card title</h4>
     <h6 class="card-subtitle text-muted">Support card subtitle</h6>
     <p class="card-text p-y-1">Some quick example text to build on the card title .</p>
