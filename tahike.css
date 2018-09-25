@@ -461,3 +461,32 @@ header.producthead .producthead-content .producthead-subheading {
 .grey-text{
     color: #868686;
 }
+
+
+.documentation{
+    background: url(img/bgproducts.png) !important;
+    position: relative !important;
+    z-index: 5 !important;
+    /* overflow: hidden; */
+    width: 100% !important;
+    height: auto;
+    pointer-events: auto;
+    /* box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1); */
+    background-repeat: no-repeat !important;
+}
+
+
+.title{
+    margin-top: 5%;
+    color: #212121;
+    font-size: 3rem;
+}
+
+.desc{
+    color: #212121;
+    font-size: 1.3rem;
+}
+
+.lite{
+    margin-top: 10%;
+}
