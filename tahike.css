@@ -529,7 +529,7 @@ a:hover{
 #logbox {
     padding: 10px;
     margin: 50px auto;
-    width: 340px;
+    width: 100%;
     background-color: #fff;
    
   }
@@ -606,3 +606,17 @@ a:hover{
     background: transparent;
     border: none;
   }
+
+  .menu_button{
+    font-size: 1rem;
+    color: #fff;
+    background-color: #2786FD;
+    background-image: none;
+    border-color: #2786FD;
+    border-radius: 10rem;
+    width: 150%;
+    height: 100%;
+    border: none;
+  }
+
+  

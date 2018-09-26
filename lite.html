@@ -90,6 +90,9 @@
                   <!-- <div class="dropdown-divider"></div> -->
                 </div>
               </li>
+              <li class="nav-item active">
+                    <button data-toggle="modal" data-target="#myModal" class="menu_button">Sign Up</button> 
+             </li>
             </ul>
           </div>
         </div>
@@ -122,7 +125,7 @@
 
 
   
-    <section>
+    <section style="margin-top:-10%;">
         <div class="container">
             <div class="row justify-content-md-center text-center">
                 <div class="col col-lg-2">
@@ -204,11 +207,11 @@
         <!-- Modal body -->
         <div class="modal-body">
             <div class="container">
-                <div class="col-md-12">
+                <div class="col-md-12 text-center">
                 <div id="logbox">
                   <form id="signup" method="post" action="/signup">
                     <h1>create an account</h1>
-                    <input name="user[name]" type="text" placeholder="What's your username?" pattern="^[\w]{3,16}$" autofocus="autofocus" required="required" class="input pass"/>
+                    <input name="user[name]" type="text" placeholder="Username?" pattern="^[\w]{3,16}$" autofocus="autofocus" required="required" class="input pass"/>
                     <input name="user[password]" type="password" placeholder="Choose a password" required="required" class="input pass"/>
                     <input name="user[password2]" type="password" placeholder="Confirm password" required="required" class="input pass"/>
                     <input name="user[email]" type="email" placeholder="Email address" class="input pass"/>
