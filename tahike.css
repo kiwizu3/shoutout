@@ -522,3 +522,87 @@ a:hover{
     background: #4b4b4b !important;
     color: #fff !important;
 }
+
+
+/* the sign up modal */
+
+#logbox {
+    padding: 10px;
+    margin: 50px auto;
+    width: 340px;
+    background-color: #fff;
+   
+  }
+  
+  .input {
+    width: 75%;
+    height: 50px;
+    display: block;
+    margin: 0 auto 15px;
+    padding: 0 15px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+  }
+  .input:focus {
+    outline: none;
+    border-bottom-color: #2786FD !important;
+  }
+  .input:hover {
+    border-bottom-color: #dcdcdc;
+  }
+  .input:invalid {
+    box-shadow: none;
+  }
+  
+  .pass:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+  }
+  
+  .inputButton {
+    position: relative;
+    width: 85%;
+    height: 50px;
+    display: block;
+    margin: 30px auto 30px;
+    border-radius: 50px;
+    color: white;
+    background-color: #2786FD;
+    border: none;
+  }
+  .inputButton:hover {
+    color: #fff;
+    background: #4b4b4b;
+  }
+  .inputButton:active {
+    top: 5px;
+    box-shadow: none;
+  }
+  .inputButton:focus {
+    outline: none;
+  }
+  
+  .modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: .3rem;
+    border:none !important;
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.27);
+  }
+
+  .login_modal{
+      margin-top: -20% !important;
+  }
+
+
+  .no_button{
+    color: #212121;
+    background: transparent;
+    border: none;
+  }

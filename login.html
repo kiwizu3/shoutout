@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ShoutOUT Labs</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet"> -->
+    <!-- Custom styles for this template -->
+    <link href="css/one-page-wonder.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="tahike.css">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar bg-light navbar-color-on-scroll fixed-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" width="150" height="30" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""><i class="fas fa-bars" style="color:#11A5DE;"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="crm.html">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img class="img-fluid menu-image rounded-circle" src="img/crm_mini.png" width="100%"
+                                            alt="">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <span class="dropdown-item">Engage</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a class="drop-hover" href="lite.html">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img class="img-fluid menu-image rounded-circle" src="img/lite_mini.png" width="100%"
+                                            alt="">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <span class="dropdown-item">Lite</span>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                            <a href="loyalty.html">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img class="img-fluid menu-image rounded-circle" src="img/loyalty_mini.png"
+                                            width="100%" alt="">
+                                    </div>
+                                    <div class="col-md-7">
+                                        <span class="dropdown-item">Loyalty</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- <div class="dropdown-divider"></div> -->
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="producthead text-center text-white">
+        <div class="producthead-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 order-lg-2">
+                        <img class="" src="img/crm_header.png" width="90%" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 text-producthead order-lg-1">
+                        <span style="margin-top:10%;"></span>
+                        <h2 class="producthead-heading mb-0"><span style="font-weight:200 !important;">ShoutOUT</span>
+                            Labs</h2>
+                        <h3 class="producthead-subheading mb-0">Login here to proceed.</h3>
+                        <div class="center-mobile">
+                            <a href="#" id="myBtn" class="btn btn-video"><i class="far fa-play-circle" style="font-size: 50px; color:#2786FD;"></i></a>
+                            <button data-toggle="modal" data-target="#myModal" class="btn btn-primary btn-lg rounded-pill mt-5">Sign Up</button> 
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </header>
+
+    <section class="login">
+        <div class="container text-center">
+            <div class="col-md-12">
+                <div id="logbox" class="login_modal">
+                    <form id="signup" method="post" action="/signup">
+                        <h1>Login Here</h1>
+                        <input name="user[email]" type="email" placeholder="enter your email" class="input pass" />
+                        <input name="user[password]" type="password" placeholder="enter your password" required="required"
+                            class="input pass" />
+                        <input type="submit" value="Sign me in!" class="inputButton" />
+
+                    </form>
+                    <div class="text-center"">
+                        <button data-toggle="modal" data-target="#myModal" class="no_button">Sign Up</button> 
+                        - <a href="#" id="">forgot password</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 footer">
+        <div class="container">
+            <p class="m-0 text-center text-black large">Copyright &copy; ShoutOUT Labs 2018</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+
+    <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            <div class="container">
+                <div class="col-md-12">
+                <div id="logbox">
+                  <form id="signup" method="post" action="/signup">
+                    <h1>create an account</h1>
+                    <input name="user[name]" type="text" placeholder="What's your username?" pattern="^[\w]{3,16}$" autofocus="autofocus" required="required" class="input pass"/>
+                    <input name="user[password]" type="password" placeholder="Choose a password" required="required" class="input pass"/>
+                    <input name="user[password2]" type="password" placeholder="Confirm password" required="required" class="input pass"/>
+                    <input name="user[email]" type="email" placeholder="Email address" class="input pass"/>
+                    <input type="submit" value="Sign me up!" class="inputButton"/>
+                    <div class="text-center">
+                        already have an account? <a href="login.html" id="login_id">login</a>
+                    </div>
+                  </form>
+                </div>
+               </div>
+              </div>
+        </div>
+        
+        <!-- Modal footer -->
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div> -->
+        
+      </div>
+    </div>
+  </div>
+
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
