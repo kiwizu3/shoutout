@@ -189,7 +189,7 @@ header.producthead {
     padding-bottom: 5rem;
     height: 834px;
     width: 100%;
-    background: url(../img/bgproducts.png);
+    background: url(./img/bgproducts.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
